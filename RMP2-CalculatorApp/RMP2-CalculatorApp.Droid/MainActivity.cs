@@ -1,14 +1,10 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
 
 namespace RMP2_CalculatorApp.Droid
 {
-    [Activity(Label = "RMP2_CalculatorApp", Theme = "@style/MainTheme", MainLauncher = true,
+    [Activity(Label = "RMP-2 Calculator", Theme = "@style/MainTheme", MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {

@@ -1,17 +1,34 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace RMP2_CalculatorApp
+namespace RMP2_CalculatorApp;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    
+    
+    public MainPage()
     {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+    }
+
+    private void OnSelectNumber(object sender, EventArgs e)
+    {
+        // throw new NotImplementedException();
+    }
+
+    private void OnSelectOperator(object sender, EventArgs e)
+    {
+        // throw new NotImplementedException();
+    }
+
+    private void OnClear(object sender, EventArgs e)
+    {
+        // throw new NotImplementedException();
+    }
+
+    private void OnCalculate(object sender, EventArgs e)
+    {
+        // throw new NotImplementedException();
     }
 }
