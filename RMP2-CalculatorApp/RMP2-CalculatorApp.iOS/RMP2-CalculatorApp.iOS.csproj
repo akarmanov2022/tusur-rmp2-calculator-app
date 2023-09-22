@@ -109,6 +109,10 @@
         <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012"/>
     </ItemGroup>
     <ItemGroup>
+        <ProjectReference Include="..\RMP2-CalculatorApp\RMP2-CalculatorApp.csproj">
+          <Project>{5bdfa2c0-e286-4a4f-9a94-c222d38eb19d}</Project>
+          <Name>RMP2-CalculatorApp</Name>
+        </ProjectReference>
         <ProjectReference Include="..\RMP2_CalculatorApp\RMP2_CalculatorApp.csproj">
             <Project>{95A61195-4DCA-4A36-93F1-6A71F6B72F05}</Project>
             <Name>RMP2_CalculatorApp</Name>
